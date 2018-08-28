@@ -14,7 +14,7 @@ public class Student {
             if (collegeAnnocation !=null){
                 System.out.println("Name: "+collegeAnnocation.name());
                 System.out.println("location: "+collegeAnnocation.location());
-                System.out.println("--------------------------");
+                System.out.println("-------------------------");
             }
         }
         catch (NoSuchMethodException e){
