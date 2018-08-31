@@ -14,5 +14,6 @@ public class ByteAOutputStream {
         baos.write(b);
         baos.writeTo(fout1);
         baos.writeTo(fout2);
+        System.out.println("hhh");
     }
 }
